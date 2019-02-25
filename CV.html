@@ -44,6 +44,7 @@
             <li><a href="#experience">Exprérience</a></li>
             <li><a href="#education">Formation</a></li>
             <li><a href="#portfolio">Liens réseaux sociaux</a></li>
+            <li><a href="#formulaire">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -307,13 +308,12 @@
       </div>
     </section>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="container">
+<div class="container" id="formulaire">
 		<h2 class="text-center">Formulaire</h2>
-		<div class="errors">
-		</div>
-			<form method="POST" action="php/sendEmail.php" name="contactForm" class="contact-form" >
+		
+			<form method="POST" action="php/sendMail.php" name="contactForm" class="contactForm contact-form" >
 				<div class="form-group">
-				<input type="text" name="contactName" id="contactName" class="username form-control" placeholder="Nom" value="">
+				<input type="text" name="contactName" id="contactName" class="contactName form-control" placeholder="Nom" value="">
 				<i class="fa fa-user"></i>
 				
 				<span class="cross">x</span>
@@ -323,7 +323,7 @@
 
 				
 				<div class="form-group">
-				<input type="mail" name="contactEmail" id="contactEmail" class=" email form-control" placeholder="Email" value="">
+				<input type="mail" name="contactEmail" id="" class="contactEmail email form-control" placeholder="Email" value="">
 				<i class="fa fa-envelope"></i>
 				
 				<span class="cross">x</span>
@@ -333,7 +333,7 @@
 
 				
 				<div class="form-group">
-				<input type="text" name="contactSubject" id="contactSubject" class="subject form-control" placeholder="objet" value="">
+				<input type="text" name="contactSubject" id="" class="contactSubject subject form-control" placeholder="objet" value="">
 				<i class="fa fa-pencil"></i>
 				
 				<span class="cross">x</span>
@@ -343,7 +343,7 @@
 
 				
 				<div class="form-group">
-				<textarea class=" message form-control" name="contactMessage" id="contactMessage" placeholder=" Message"></textarea>
+				<textarea class="contactMessage message form-control" name="contactMessage" id="" placeholder=" Message"></textarea>
 				<i class="fa fa-comments message-icon"></i>
 				
 				<span class="cross">x</span>
