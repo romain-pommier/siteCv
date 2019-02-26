@@ -91,16 +91,16 @@ $(function () {
     
     // submit form
     
-    $('.contact-form').submit(function(event) {
+    // $('.contact-form').submit(function(event) {
          
-         if(UserError === true || EmailError === true || SubError === true || MsgError === true){
+    //      if(UserError === true || EmailError === true || SubError === true || MsgError === true){
     
-             event.preventDefault(); // prevent sending 
-             $('.username,.email,.subject,.message').blur();
-         }
+    //          event.preventDefault(); // prevent sending 
+    //          $('.username,.email,.subject,.message').blur();
+    //      }
     
     
-    });
+    // });
     
     });
 
