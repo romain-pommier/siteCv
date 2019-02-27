@@ -195,6 +195,7 @@ section .heading h2
 #experience .heading h2
 {
     color: #fff;
+    font-size: 2.5rem;
 }
 .timeline
 {
@@ -257,10 +258,13 @@ section .heading h2
     margin-right: 40px;
     border: 1px solid #d4d4d4;
     border-radius: 7px;
-    padding: 20px 25px;
+    padding: 20px 8px;
     position: relative;
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
     background: #fff;
+}
+.timeline-panel h4{
+    font-size: 1.5rem;
 }
 .timeline-panel-container-inverted .timeline-panel
 {
@@ -290,7 +294,7 @@ section .heading h2
 .timeline-heading h3
 {
     margin-top: 5px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 .timeline-heading h4
 {
@@ -400,7 +404,7 @@ body{
 
 h2{
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 22px ;
 }
 .contact-form{
 	max-width: 500px;
