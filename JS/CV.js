@@ -90,6 +90,22 @@ $(function () {
 
 
     // submit form
+<<<<<<< HEAD
+=======
+    
+    // $('.contact-form').submit(function(event) {
+         
+    //      if(UserError === true || EmailError === true || SubError === true || MsgError === true){
+    
+    //          event.preventDefault(); // prevent sending 
+    //          $('.username,.email,.subject,.message').blur();
+    //      }
+    
+    
+    // });
+    
+    });
+>>>>>>> 52d4ca50d861a1893958325712e6e6331dd62b30
 
     // $('.contact-form').submit(function(event) {
 
