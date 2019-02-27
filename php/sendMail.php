@@ -20,20 +20,16 @@ if($_POST) {
 		$error['name'] = "Entrez votre nom, s'il vous plaît.";
 	}
 	// Check Email
-	// if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
-	// 	$error['email'] = "Entrez un e-mail valide, s'il vous plaît..";
-	// }
-	// // Check Message
-	// if (strlen($contact_message) < 15) {
-	// 	$error['message'] = "Votre message doit avoir minimum 15 caractères.";
-	// }
+	if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
+		$error['email'] = "Entrez un e-mail valide, s'il vous plaît..";
+	}
+	// Check Message
+	if (strlen($contact_message) < 15) {
+		$error['message'] = "Votre message doit avoir minimum 15 caractères.";
+	}
    // Subject
 	if ($subject == '') { $subject = "portfolio email"; }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 52d4ca50d861a1893958325712e6e6331dd62b30
 	// Set Message
 	$message = "";
    $message .= "Email from: " . $name . "<br />";
@@ -52,10 +48,6 @@ if($_POST) {
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
    if (!$error) {
-<<<<<<< HEAD
-=======
-
->>>>>>> 52d4ca50d861a1893958325712e6e6331dd62b30
        ini_set("sendmail_from", $siteOwnersEmail); // for windows server
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
