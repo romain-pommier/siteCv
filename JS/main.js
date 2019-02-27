@@ -108,19 +108,15 @@ $(function () {
 let uri = document.URL;
 if (uri.includes("sent=")) {
     let index = uri.indexOf("=");
-    let sent = uri.substr(index, 2);
-    let result0 = "=0";
-    let result1 = "=1";
-    console.log(sent);
+    let sent = uri.substr(index+1, 2);
     let popup = document.getElementById("popupMail");
     let infos = document.getElementById("popupMailInfos");
-    console.log(sent);
-
-    if (sent == result1) {
+    
+    if (sent == 1) {
         popup.style.backgroundColor = "green";
         infos.textContent = "Mail envoyé !";
     }
-    else if (sent == result0) {
+    else if (sent == 0) {
         popup.style.backgroundColor = "red";
         infos.textContent = "Une erreur c'est produite pendant l'envoie du mail.";
     }
