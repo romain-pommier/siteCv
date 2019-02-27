@@ -5,6 +5,24 @@ body
     
 }
 
+#popupMail {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 255, 0);
+    font-weight: bold;
+    display: none;
+    opacity: 0.5;
+    transition: width 1s linear;
+    z-index: 9999;
+}
+
+#popupMailInfos {
+    font-size: 25px;
+    text-align: center;
+}
+
 h1,h2,h3,h4,h5
 {
   font-weight: bold;
@@ -79,7 +97,7 @@ section .heading h2
 }
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
-    color:#d82c2e !important;
+    color:#2D5266 !important;
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle
@@ -102,7 +120,7 @@ section .heading h2
 
 .textehead
 {
-    color:beige;
+    color:white;
 }
 
 
@@ -172,6 +190,7 @@ section .heading h2
 #experience
 {
     background: #2D5266;
+    
 }
 #experience .heading h2
 {
@@ -271,7 +290,7 @@ section .heading h2
 .timeline-heading h3
 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 1.8rem;
 }
 .timeline-heading h4
 {
@@ -301,6 +320,8 @@ section .heading h2
     border-radius: 10px ;
     border:2px solid #ccc;
     margin-bottom: 20px;
+    height:auto;
+    min-height: 35rem;
     
 }
 .education-block h5
@@ -339,8 +360,15 @@ education-block .red-divider
     background:#2D5266; 
     
 }
+
 #portfolio .row {
-    padding-left:25%;
+    
+    padding: 0;
+    margin-left:50%;
+    transform:translateX(-50%);
+    width: 80%;
+  
+    
 }
 #portfolio .heading h2
 {
@@ -367,9 +395,7 @@ education-block .red-divider
 
 body{
 	font-family: 'Raleway', sans-serif;
-	background: url(../img/body_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
 
 h2{
