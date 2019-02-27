@@ -1,7 +1,7 @@
 <?php
 //echo phpinfo();
 // My email
-$siteOwnersEmail = 'romain-p31@hotmail.fr';
+$siteOwnersEmail = 'contact@romain-pommier.com';
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 $dir = dirname($uri);
