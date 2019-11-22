@@ -1,0 +1,18 @@
+2019-06-12 06:27:40 u96637599 zR4fp6-1i2r3y12QQ-00SEML |< REMOTE=89.163.151.0 SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-12 06:27:40 u96637599 zR4fp6-1i2r3y12QQ-00SEML <= S=raphaeEt@gmail.com SZ=1750 D=0 SID=775117966
+2019-06-12 06:27:42 u96637599 zR4fp6-1i2r3y12QQ-00SEML => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1Mf0Ru-1iHNDC1Axm-00gUfv
+2019-06-12 08:24:28 u96637599 zRCbuz-1hbllP2adH-0011Gs |< REMOTE=87.101.94.0 SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-12 08:24:28 u96637599 zRCbuz-1hbllP2adH-0011Gs <= S=micgyhaelunsob@gmail.com SZ=1046 D=0 SID=775117966
+2019-06-12 08:24:28 u96637599 zRCbuz-1hbllP2adH-0011Gs => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MKsWr-1hwBWb2qMv-00LGBO
+2019-06-14 02:07:52 u96637599 zRJjjP-1hrEwr2HjV-00FSsG |< REMOTE=141.98.100.0 SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-14 02:07:52 u96637599 zRJjjP-1hrEwr2HjV-00FSsG <= S=cindyjeannettedeblauwe@gmail.com SZ=1589 D=0 SID=775117966
+2019-06-14 02:07:54 u96637599 zRJjjP-1hrEwr2HjV-00FSsG => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MAOa3-1hmH8l2Qqx-00BtIO
+2019-06-14 09:29:16 u96637599 zROfgT-1hmzBr3C8d-00D0EE |< REMOTE="2a01:e34:ef00::" SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-14 09:29:16 u96637599 zROfgT-1hmzBr3C8d-00D0EE <= S=romain-p31@hotmail.fr SZ=961 D=0 SID=775117966
+2019-06-14 09:29:16 u96637599 zROfgT-1hmzBr3C8d-00D0EE => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MQMm9-1hxMMv3JXV-00MK8A
+2019-06-14 09:30:20 u96637599 zRJScE-1hr84q43Hk-00FUYo |< REMOTE="2a01:e34:ef00::" SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-14 09:30:20 u96637599 zRJScE-1hr84q43Hk-00FUYo <= S=sdvdsvds@hotmail.fr SZ=961 D=0 SID=775117966
+2019-06-14 09:30:21 u96637599 zRJScE-1hr84q43Hk-00FUYo => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1MvJs9-1iSHFc042r-00rH4X
+2019-06-14 11:23:19 u96637599 zRoxwa-1iDnnl3wmU-00d9Q8 |< REMOTE=141.98.100.0 SCRIPT=/php/sendMail.php -- /usr/sbin/sendmail -t -i
+2019-06-14 11:23:19 u96637599 zRoxwa-1iDnnl3wmU-00d9Q8 <= S=indoserve095@gmail.com SZ=1116 D=0 SID=775117966
+2019-06-14 11:23:21 u96637599 zRoxwa-1iDnnl3wmU-00d9Q8 => contact@romain-pommier.com msmtp.kundenserver.de[172.19.35.7] 250 Requested mail action okay, completed: id=1N1Oo7-1icj5I46Sh-012t8V

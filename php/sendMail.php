@@ -54,7 +54,7 @@ if($_POST) {
 		if ($mail) {
 			header("Location: http://$host$dir/$file" . "?sent=1");
 		}
-      else { echo "Votre message n'a été envoyé. Ressayez s'il vous plaît."; }
+      else { echo "Votre message n'a pas été envoyé. Ressayez s'il vous plaît."; }
 		
 	} # end if - no validation error
 

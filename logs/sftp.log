@@ -1,0 +1,325 @@
+Jun 14 20:19:36 10.71.57.0 u96637599 Connection from 10.71.57.0 port 58678 on 82.165.82.42 port 22
+Jun 14 20:19:38 10.71.57.0 u96637599 Accepted password for u96637599 from 10.71.57.0 port 58678 ssh2
+Jun 14 20:19:38 10.71.57.0 u96637599 Starting session: subsystem 'sftp' for u96637599 from 10.71.57.0 port 58678
+Jun 14 20:19:38 10.71.57.0 u96637599 session opened for local user u96637599 from [10.71.57.0]
+Jun 14 20:20:31 10.71.57.0 u96637599 Connection from 10.71.57.0 port 18954 on 82.165.82.42 port 22
+Jun 14 20:20:32 10.71.57.0 u96637599 Accepted password for u96637599 from 10.71.57.0 port 18954 ssh2
+Jun 14 20:20:32 10.71.57.0 u96637599 Starting session: subsystem 'sftp' for u96637599 from 10.71.57.0 port 18954
+Jun 14 20:20:32 10.71.57.0 u96637599 session opened for local user u96637599 from [10.71.57.0]
+Jun 14 20:20:32 10.71.57.0 u96637599 sent status No such file
+Jun 14 20:20:32 10.71.57.0 u96637599 open "/index.html" flags READ mode 0666
+Jun 14 20:20:32 10.71.57.0 u96637599 Connection from 10.71.57.0 port 19578 on 82.165.82.42 port 22
+Jun 14 20:20:32 10.71.57.0 u96637599 Accepted password for u96637599 from 10.71.57.0 port 19578 ssh2
+Jun 14 20:20:32 10.71.57.0 u96637599 Starting session: subsystem 'sftp' for u96637599 from 10.71.57.0 port 19578
+Jun 14 20:20:32 10.71.57.0 u96637599 session opened for local user u96637599 from [10.71.57.0]
+Jun 14 20:20:32 10.71.57.0 u96637599 close "/index.html" bytes read 12666 written 0
+Jun 14 20:20:32 10.71.57.0 u96637599 [10.71.57.0|get|0|12666|0|0|0|2f696e6465782e68746d6c|]
+Jun 14 20:20:32 10.71.57.0 u96637599 open "/logs/access.log.23.3.gz" flags READ mode 0666
+Jun 14 20:20:32 10.71.57.0 u96637599 open "/logs/access.log.23.4.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.23.3.gz" bytes read 2397 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|1|2397|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e332e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.23.4.gz" bytes read 2226 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|1|2226|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e342e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/access.log.23.2.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/access.log.23.1.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.23.2.gz" bytes read 2158 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|2158|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e322e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.23.1.gz" bytes read 1932 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|1932|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e312e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/access.log.19.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/mail.log.20.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.19.gz" bytes read 9536 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|9536|0|0|0|2f6c6f67732f6163636573732e6c6f672e31392e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/access.log.23.6.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/mail.log.20.gz" bytes read 495 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|495|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32302e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/access.log.23.6.gz" bytes read 1180 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|1180|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e362e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/mail.log.22.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 open "/logs/mail.log.16.gz" flags READ mode 0666
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/mail.log.22.gz" bytes read 396 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|396|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32322e677a|]
+Jun 14 20:20:33 10.71.57.0 u96637599 close "/logs/mail.log.16.gz" bytes read 402 written 0
+Jun 14 20:20:33 10.71.57.0 u96637599 [10.71.57.0|get|0|402|0|0|0|2f6c6f67732f6d61696c2e6c6f672e31362e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.18.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.23.5.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.18.gz" bytes read 8122 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|8122|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.23.5.gz" bytes read 1491 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|1491|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e352e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.24.3.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/mail.log" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/mail.log" bytes read 2597 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|2597|0|0|0|2f6c6f67732f6d61696c2e6c6f67|]
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.24.3.gz" bytes read 2345 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|2345|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e332e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.24.2.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.24.1.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.24.2.gz" bytes read 1779 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|1779|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e322e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.24.1.gz" bytes read 1747 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|1747|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e312e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/mail.log.19.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/access.log.17.gz" flags READ mode 0666
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/mail.log.19.gz" bytes read 385 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|385|0|0|0|2f6c6f67732f6d61696c2e6c6f672e31392e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 close "/logs/access.log.17.gz" bytes read 14694 written 0
+Jun 14 20:20:34 10.71.57.0 u96637599 [10.71.57.0|get|0|14694|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e677a|]
+Jun 14 20:20:34 10.71.57.0 u96637599 open "/logs/mail.log.18.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/sftp.log" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/mail.log.18.gz" bytes read 307 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|1|307|0|0|0|2f6c6f67732f6d61696c2e6c6f672e31382e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/sftp.log" bytes read 6722 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|6722|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.24.5" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.22.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/access.log.22.gz" bytes read 11480 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|11480|0|0|0|2f6c6f67732f6163636573732e6c6f672e32322e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/access.log.24.5" bytes read 24052 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|24052|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e35|]
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.23.7.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.20.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/access.log.23.7.gz" bytes read 899 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|899|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e372e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/access.log.20.gz" bytes read 18655 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|18655|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/mail.log.21.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.21.gz" flags READ mode 0666
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/mail.log.21.gz" bytes read 409 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|409|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32312e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 close "/logs/access.log.21.gz" bytes read 21590 written 0
+Jun 14 20:20:35 10.71.57.0 u96637599 [10.71.57.0|get|0|21590|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e677a|]
+Jun 14 20:20:35 10.71.57.0 u96637599 open "/logs/access.log.16.gz" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/access.log.24.4.gz" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/access.log.24.4.gz" bytes read 1712 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|1712|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e342e677a|]
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/access.log.16.gz" bytes read 12347 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|1|12347|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e677a|]
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/mail.log.23.gz" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/last_traffic" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/last_traffic" bytes read 0 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/mail.log.23.gz" bytes read 393 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|393|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32332e677a|]
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/traffic.db" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/info.py" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/traffic.db" bytes read 12288 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/info.py" bytes read 6384 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/info.php5" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/info.pl" flags READ mode 0666
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/info.php5" bytes read 21 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Jun 14 20:20:36 10.71.57.0 u96637599 close "/logs/info.pl" bytes read 4176 written 0
+Jun 14 20:20:36 10.71.57.0 u96637599 [10.71.57.0|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Jun 14 20:20:36 10.71.57.0 u96637599 open "/logs/.htaccess" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/06.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/.htaccess" bytes read 267 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|1|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/traffic.html/06.html" bytes read 5477 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|0|5477|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30362e68746d6c|]
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/05.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/04.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/traffic.html/04.html" bytes read 11364 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|0|11364|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/traffic.html/05.html" bytes read 11727 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|0|11727|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/03.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 sent status Permission denied
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/traffic.html/03.html" bytes read 11679 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|0|11679|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 sent status Permission denied
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/02.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 sent status Permission denied
+Jun 14 20:20:37 10.71.57.0 u96637599 open "/logs/traffic.html/index.html" flags READ mode 0666
+Jun 14 20:20:37 10.71.57.0 u96637599 close "/logs/traffic.html/02.html" bytes read 1694 written 0
+Jun 14 20:20:37 10.71.57.0 u96637599 [10.71.57.0|get|0|1694|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/logs/traffic.html/index.html" bytes read 4523 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|1|4523|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/logs/access.log.24.5" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/logs/access.log.24.5" bytes read 24052 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|24052|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e35|]
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/DOCS/cv Romain dev.pdf" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/Images/youtube.png" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/DOCS/cv Romain dev.pdf" bytes read 177635 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|177635|0|0|0|2f444f43532f637620526f6d61696e206465762e706466|]
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/Images/youtube.png" bytes read 41910 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|41910|0|0|0|2f496d616765732f796f75747562652e706e67|]
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/Images/t\303\251l\303\251chargement.jpg" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 open "/Images/t\303\251l\303\251chargement.png" flags READ mode 0666
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/Images/t\303\251l\303\251chargement.png" bytes read 3993 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|3993|0|0|0|2f496d616765732f74c3a96cc3a96368617267656d656e742e706e67|]
+Jun 14 20:20:38 10.71.57.0 u96637599 close "/Images/t\303\251l\303\251chargement.jpg" bytes read 50155 written 0
+Jun 14 20:20:38 10.71.57.0 u96637599 [10.71.57.0|get|0|50155|0|0|0|2f496d616765732f74c3a96cc3a96368617267656d656e742e6a7067|]
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/twitter-video.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/twitter-retweet.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/twitter-video.png" bytes read 17948 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|17948|0|0|0|2f496d616765732f747769747465722d766964656f2e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/twitter-retweet.png" bytes read 21112 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|21112|0|0|0|2f496d616765732f747769747465722d726574776565742e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/Lkin.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/linkedin.jpg" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/Lkin.png" bytes read 18716 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|18716|0|0|0|2f496d616765732f4c6b696e2e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/linkedin.jpg" bytes read 35503 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|35503|0|0|0|2f496d616765732f6c696e6b6564696e2e6a7067|]
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/Linkedin-logo.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/linkedin-.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/Linkedin-logo.png" bytes read 122249 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|122249|0|0|0|2f496d616765732f4c696e6b6564696e2d6c6f676f2e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/linkedin-.png" bytes read 36788 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|36788|0|0|0|2f496d616765732f6c696e6b6564696e2d2e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/image site .jpg" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/google-translate.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/image site .jpg" bytes read 62140 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|62140|0|0|0|2f496d616765732f696d6167652073697465202e6a7067|]
+Jun 14 20:20:39 10.71.57.0 u96637599 close "/Images/google-translate.png" bytes read 36323 written 0
+Jun 14 20:20:39 10.71.57.0 u96637599 [10.71.57.0|get|0|36323|0|0|0|2f496d616765732f676f6f676c652d7472616e736c6174652e706e67|]
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/formation-a-linkedin-lyon-Baobab-sur-la-colline-e1519143100209.png" flags READ mode 0666
+Jun 14 20:20:39 10.71.57.0 u96637599 open "/Images/facebook-video.png" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/Images/formation-a-linkedin-lyon-Baobab-sur-la-colline-e1519143100209.png" bytes read 9972 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|1|9972|0|0|0|2f496d616765732f666f726d6174696f6e2d612d6c696e6b6564696e2d6c796f6e2d42616f6261622d7375722d6c612d636f6c6c696e652d65313531393134333130303230392e706e67|]
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/Images/facebook-video.png" bytes read 17992 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|1|17992|0|0|0|2f496d616765732f66616365626f6f6b2d766964656f2e706e67|]
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/Images/facebook-share.png" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/Images/31960758_10215825598373564_874175356842541056_n.jpg" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/Images/facebook-share.png" bytes read 24582 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|24582|0|0|0|2f496d616765732f66616365626f6f6b2d73686172652e706e67|]
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/Images/31960758_10215825598373564_874175356842541056_n.jpg" bytes read 62140 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|62140|0|0|0|2f496d616765732f33313936303735385f31303231353832353539383337333536345f3837343137353335363834323534313035365f6e2e6a7067|]
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/Images/-c-github.jpg" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/Images/-c-github.jpg" bytes read 34050 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|34050|0|0|0|2f496d616765732f2d632d6769746875622e6a7067|]
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/JS/main.js" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/JS/main.js" bytes read 4148 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|4148|0|0|0|2f4a532f6d61696e2e6a73|]
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/php/sendMail.php" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/php/sendMail.php" bytes read 2140 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|2140|0|0|0|2f7068702f73656e644d61696c2e706870|]
+Jun 14 20:20:40 10.71.57.0 u96637599 open "/php/mailSent.php" flags READ mode 0666
+Jun 14 20:20:40 10.71.57.0 u96637599 close "/php/mailSent.php" bytes read 29 written 0
+Jun 14 20:20:40 10.71.57.0 u96637599 [10.71.57.0|get|0|29|0|0|0|2f7068702f6d61696c53656e742e706870|]
+Jun 14 20:20:41 10.71.57.0 u96637599 open "/CSS/style.css" flags READ mode 0666
+Jun 14 20:20:41 10.71.57.0 u96637599 close "/CSS/style.css" bytes read 7705 written 0
+Jun 14 20:20:41 10.71.57.0 u96637599 [10.71.57.0|get|0|7705|0|0|0|2f4353532f7374796c652e637373|]
+Jun 14 20:21:23 10.71.57.0 u96637599 sent status No such file
+Jun 14 20:21:23 10.71.57.0 u96637599 open "/index.html" flags READ mode 0666
+Jun 14 20:21:23 10.71.57.0 u96637599 open "/CSS/style.css" flags READ mode 0666
+Jun 14 20:21:23 10.71.57.0 u96637599 close "/index.html" bytes read 12666 written 0
+Jun 14 20:21:23 10.71.57.0 u96637599 [10.71.57.0|get|0|12666|0|0|0|2f696e6465782e68746d6c|]
+Jun 14 20:21:23 10.71.57.0 u96637599 close "/CSS/style.css" bytes read 7705 written 0
+Jun 14 20:21:23 10.71.57.0 u96637599 [10.71.57.0|get|0|7705|0|0|0|2f4353532f7374796c652e637373|]
+Jun 14 20:21:23 10.71.57.0 u96637599 open "/DOCS/cv Romain dev.pdf" flags READ mode 0666
+Jun 14 20:21:23 10.71.57.0 u96637599 open "/Images/youtube.png" flags READ mode 0666
+Jun 14 20:21:23 10.71.57.0 u96637599 close "/Images/youtube.png" bytes read 41910 written 0
+Jun 14 20:21:23 10.71.57.0 u96637599 [10.71.57.0|get|0|41910|0|0|0|2f496d616765732f796f75747562652e706e67|]
+Jun 14 20:21:23 10.71.57.0 u96637599 close "/DOCS/cv Romain dev.pdf" bytes read 177635 written 0
+Jun 14 20:21:23 10.71.57.0 u96637599 [10.71.57.0|get|0|177635|0|0|0|2f444f43532f637620526f6d61696e206465762e706466|]
+Jun 14 20:21:23 10.71.57.0 u96637599 open "/Images/t\303\251l\303\251chargement.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/t\303\251l\303\251chargement.png" bytes read 3993 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|1|3993|0|0|0|2f496d616765732f74c3a96cc3a96368617267656d656e742e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/t\303\251l\303\251chargement.jpg" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/twitter-video.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/t\303\251l\303\251chargement.jpg" bytes read 50155 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|50155|0|0|0|2f496d616765732f74c3a96cc3a96368617267656d656e742e6a7067|]
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/twitter-video.png" bytes read 17948 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|17948|0|0|0|2f496d616765732f747769747465722d766964656f2e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/twitter-retweet.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/Lkin.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/twitter-retweet.png" bytes read 21112 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|21112|0|0|0|2f496d616765732f747769747465722d726574776565742e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/Lkin.png" bytes read 18716 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|18716|0|0|0|2f496d616765732f4c6b696e2e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/linkedin.jpg" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/Linkedin-logo.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/linkedin.jpg" bytes read 35503 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|35503|0|0|0|2f496d616765732f6c696e6b6564696e2e6a7067|]
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/Linkedin-logo.png" bytes read 122249 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|122249|0|0|0|2f496d616765732f4c696e6b6564696e2d6c6f676f2e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/linkedin-.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/image site .jpg" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/linkedin-.png" bytes read 36788 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|36788|0|0|0|2f496d616765732f6c696e6b6564696e2d2e706e67|]
+Jun 14 20:21:24 10.71.57.0 u96637599 open "/Images/google-translate.png" flags READ mode 0666
+Jun 14 20:21:24 10.71.57.0 u96637599 close "/Images/image site .jpg" bytes read 62140 written 0
+Jun 14 20:21:24 10.71.57.0 u96637599 [10.71.57.0|get|0|62140|0|0|0|2f496d616765732f696d6167652073697465202e6a7067|]
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/google-translate.png" bytes read 36323 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|1|36323|0|0|0|2f496d616765732f676f6f676c652d7472616e736c6174652e706e67|]
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/Images/formation-a-linkedin-lyon-Baobab-sur-la-colline-e1519143100209.png" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/Images/facebook-video.png" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/formation-a-linkedin-lyon-Baobab-sur-la-colline-e1519143100209.png" bytes read 9972 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|9972|0|0|0|2f496d616765732f666f726d6174696f6e2d612d6c696e6b6564696e2d6c796f6e2d42616f6261622d7375722d6c612d636f6c6c696e652d65313531393134333130303230392e706e67|]
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/facebook-video.png" bytes read 17992 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|17992|0|0|0|2f496d616765732f66616365626f6f6b2d766964656f2e706e67|]
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/Images/facebook-share.png" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/Images/31960758_10215825598373564_874175356842541056_n.jpg" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/facebook-share.png" bytes read 24582 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|24582|0|0|0|2f496d616765732f66616365626f6f6b2d73686172652e706e67|]
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/Images/-c-github.jpg" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/31960758_10215825598373564_874175356842541056_n.jpg" bytes read 62140 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|62140|0|0|0|2f496d616765732f33313936303735385f31303231353832353539383337333536345f3837343137353335363834323534313035365f6e2e6a7067|]
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/Images/-c-github.jpg" bytes read 34050 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|34050|0|0|0|2f496d616765732f2d632d6769746875622e6a7067|]
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/JS/main.js" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/JS/main.js" bytes read 4148 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|4148|0|0|0|2f4a532f6d61696e2e6a73|]
+Jun 14 20:21:25 10.71.57.0 u96637599 open "/logs/access.log.23.4.gz" flags READ mode 0666
+Jun 14 20:21:25 10.71.57.0 u96637599 close "/logs/access.log.23.4.gz" bytes read 2226 written 0
+Jun 14 20:21:25 10.71.57.0 u96637599 [10.71.57.0|get|0|2226|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e342e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.23.3.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.23.2.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.23.3.gz" bytes read 2397 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|2397|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e332e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.23.2.gz" bytes read 2158 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|2158|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e322e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.23.1.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.19.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.23.1.gz" bytes read 1932 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|1932|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e312e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.19.gz" bytes read 9536 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|9536|0|0|0|2f6c6f67732f6163636573732e6c6f672e31392e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/mail.log.20.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.23.6.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/mail.log.20.gz" bytes read 495 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|495|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32302e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.23.6.gz" bytes read 1180 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|1180|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e362e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/mail.log.22.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/mail.log.16.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/mail.log.22.gz" bytes read 396 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|396|0|0|0|2f6c6f67732f6d61696c2e6c6f672e32322e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/mail.log.16.gz" bytes read 402 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|402|0|0|0|2f6c6f67732f6d61696c2e6c6f672e31362e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.18.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 open "/logs/access.log.23.5.gz" flags READ mode 0666
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.18.gz" bytes read 8122 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|8122|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e677a|]
+Jun 14 20:21:26 10.71.57.0 u96637599 close "/logs/access.log.23.5.gz" bytes read 1491 written 0
+Jun 14 20:21:26 10.71.57.0 u96637599 [10.71.57.0|get|0|1491|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e352e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/access.log.24.3.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/mail.log" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/access.log.24.3.gz" bytes read 2345 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|2345|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e332e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/mail.log" bytes read 2597 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|2597|0|0|0|2f6c6f67732f6d61696c2e6c6f67|]
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/access.log.24.2.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/access.log.24.1.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/access.log.24.2.gz" bytes read 1779 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|1779|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e322e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/access.log.24.1.gz" bytes read 1747 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|1747|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e312e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/mail.log.19.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/access.log.17.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/mail.log.19.gz" bytes read 385 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|385|0|0|0|2f6c6f67732f6d61696c2e6c6f672e31392e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 close "/logs/access.log.17.gz" bytes read 14694 written 0
+Jun 14 20:21:27 10.71.57.0 u96637599 [10.71.57.0|get|0|14694|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e677a|]
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/mail.log.18.gz" flags READ mode 0666
+Jun 14 20:21:27 10.71.57.0 u96637599 open "/logs/sftp.log" flags READ mode 0666
