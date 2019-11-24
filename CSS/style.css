@@ -2,6 +2,15 @@
 
 body {
     font-family: 'lato', sans-serif;
+    background-image: url("../Images/testBackground.jpg");
+    padding-top: 100px;
+    /*background-color: #20313A;*/
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #popupMail {
@@ -102,24 +111,6 @@ section .heading {
     background-color: #fff !important;
 }
 
-/*BACKGROUNDIMAGE*/
-.backgroundImage{
-
-}
-/*ABOUT*/
-
-#about,#realisation,#education,#formulaire {
-     background-image: url("../Images/testBackground.jpg");
-    padding-top: 100px;
-    /*background-color: #20313A;*/
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 
 /*Head*/
 
@@ -187,14 +178,8 @@ section .heading {
 
 /* EXPERIENCE */
 
-#experience,
-#realisation {
-    /*background: #2D5266;*/
-    background-color: rgba(0,0,0,0);
-}
-
-#experience .heading h2 ,
-#portfolio .heading h2{
+#experience .heading h2,
+#portfolio .heading h2 {
     color: #2D5266;
     font-size: 2.5rem;
 }
@@ -345,7 +330,7 @@ section .heading {
     font-weight: bold;
 }
 
-education-block .red-divider {
+.education-block .red-divider {
     margin-bottom: 20px;
 }
 
@@ -360,9 +345,8 @@ education-block .red-divider {
     width: 80%;
 }
 
-
 #realisation .heading h2,
-#formulaire h2{
+#formulaire h2 {
     color: #fff;
 }
 
@@ -513,16 +497,10 @@ footer h5 {
 
 #skills,
 #experience,
-#portfolio{
-    background: #dddddd;
+#portfolio {
+    background: rgb(255, 255, 255, 0.7);
 }
 
 footer {
     background: #20313A;
 }
-
-/*#realisation,*/
-/*#education,*/
-/*#formulaire{*/
-/*    background: #2D5266;*/
-/*}*/
