@@ -1,16 +1,16 @@
-$(function () {
+$(function() {
 
-    $(".navbar a, footer a").on("click", function (event) {
+    $(".navbar a, footer a").on("click", function(event) {
         event.preventDefault();
         var hash = this.hash;
 
-        $('body,html').animate({ scrollTop: $(hash).offset().top }, 900, function () { window.location.hash = hash; })
+        $('body,html').animate({ scrollTop: $(hash).offset().top }, 900, function() { window.location.hash = hash; })
     });
 })
-$(".input").focus(function () {
+$(".input").focus(function() {
     $(this).parent().addClass("focus");
 })
-$(function () {
+$(function() {
 
     'use strict';
     // error variables
@@ -19,7 +19,7 @@ $(function () {
         SubError = true,
         MsgError = true;
 
-    $(".username").blur(function () {
+    $(".username").blur(function() {
 
         if ($(this).val().length < 4) {
 
@@ -37,7 +37,7 @@ $(function () {
 
 
 
-    $(".email").blur(function () {
+    $(".email").blur(function() {
 
         if ($(this).val() === '') {
 
@@ -54,7 +54,7 @@ $(function () {
     });
 
 
-    $(".subject").blur(function () {
+    $(".subject").blur(function() {
 
         if ($(this).val() === '') {
 
@@ -72,7 +72,7 @@ $(function () {
     });
 
 
-    $(".message").blur(function () {
+    $(".message").blur(function() {
 
         if ($(this).val().length < 15) {
 
@@ -108,15 +108,14 @@ $(function () {
 let uri = document.URL;
 if (uri.includes("sent=")) {
     let index = uri.indexOf("=");
-    let sent = uri.substr(index+1, 2);
+    let sent = uri.substr(index + 1, 2);
     let popup = document.getElementById("popupMail");
     let infos = document.getElementById("popupMailInfos");
-    
+
     if (sent == 1) {
         popup.style.backgroundColor = "green";
         infos.textContent = "Mail envoyé !";
-    }
-    else if (sent == 0) {
+    } else if (sent == 0) {
         popup.style.backgroundColor = "red";
         infos.textContent = "Une erreur c'est produite pendant l'envoie du mail.";
     }
