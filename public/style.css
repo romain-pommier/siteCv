@@ -119,6 +119,9 @@ section .heading {
 .icon-bar {
     background-color: #fff !important;
 }
+.text-muted{
+    color:#525151!important;
+}
 
 
 /*Head*/
@@ -318,7 +321,7 @@ section .heading {
 }
 
 .education-block h5 {
-    color: #888;
+    color: #636161;
     font-size: 15px;
     margin-bottom: 15px;
 }
@@ -397,6 +400,9 @@ h2 {
 .contact-form .form-group {
     margin-bottom: 0;
     position: relative;
+}
+.contact-form label{
+    color: white;
 }
 
 .contact-form input,
@@ -483,6 +489,7 @@ span.verify {
 
 footer {
     padding: 20px 0 40px;
+    background: #20313A;
 }
 
 footer .glyphicon {
@@ -500,6 +507,9 @@ footer h5 {
     color: #fff;
     font-weight: normal;
 }
+footer a {
+    padding: 20px;
+}
 
 
 /*BACKGROUND-COLOR*/
@@ -508,8 +518,4 @@ footer h5 {
 #experience,
 #portfolio {
     background: rgb(255, 255, 255, 0.7);
-}
-
-footer {
-    background: #20313A;
 }

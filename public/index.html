@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <title>Romain POMMIER Concepteur/Développeur Web junior</title>
@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Romain POMMIER Concepteur/Développeur Web junior">
     <!-- lien jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- lien bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  async>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" async></script>
     <!-- police -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" async>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"  async>
     <!--lien CSS + js-->
-    <link rel="stylesheet" href="src/CSS/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60" id="particles-js">
@@ -28,7 +29,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#monMenu">
+                <button type="button" aria-label="Center Align" class="navbar-toggle" data-toggle="collapse" data-target="#monMenu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -52,13 +53,13 @@
 
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-picture">
-            <img src="src/Images/image%20site%20.jpg" alt="romain" class="img-circle" />
+            <img src="Images/image%20site%20.webp" alt="romain" class="img-circle" />
         </div>
 
         <div class="heading">
             <h1 class="textehead">Romain POMMIER</h1>
             <h2 class="textehead">Concepteur/Développeur Web junior</h2>
-            <a href="src/DOCS/cv Romain dev.pdf" target="_blank" class="button1">Télécharger </a>
+            <a href="DOCS/cv%20Romain%20dev.pdf" target="_blank" class="button1">Télécharger </a>
         </div>
     </section>
 
@@ -131,12 +132,12 @@
             <div class="row">
                 <div class="col-md-6 picture">
                     <a class="thumbnail" href="http://app.romain-pommier.com/" target="_blank">
-                        <img src="src/Images/recipesWebSite.png" alt="recipesWebSite" />
+                        <img src="Images/recipesWebSite.webp" alt="recipesWebSite" />
                     </a>
                 </div>
                 <div class="col-md-6">
                     <a class="thumbnail" href="http://myeasyorders.click-label.fr/" target="_blank">
-                        <img src="src/Images/myeasyorders.PNG" alt="myeasyorders" />
+                        <img src="Images/myeasyorders.webp" alt="myeasyorders" />
                     </a>
                 </div>
             </div>
@@ -261,25 +262,25 @@
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <a class="thumbnail" href="https://www.facebook.com/romain.pommier.186" target="_blank">
-                        <img src="src/Images/facebook-share.png" alt="facebook share" />
+                    <a class="thumbnail" href="https://www.facebook.com/romain.pommier.186" target="_blank" rel="noopener">
+                        <img src="Images/facebook-share.webp" alt="facebook share" />
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a class="thumbnail" href="https://twitter.com/PommierRomain" target="_blank">
-                        <img src="src/Images/twitter-retweet.png" alt="twitter video" />
+                    <a class="thumbnail" href="https://twitter.com/PommierRomain" target="_blank" rel="noopener">
+                        <img src="Images/twitter-retweet.webp" alt="twitter video" />
                     </a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <a class="thumbnail" href="https://github.com/romain-pommier" target="_blank">
-                        <img src="src/Images/-c-github.jpg" alt="gitHub" />
+                    <a class="thumbnail" href="https://github.com/romain-pommier" target="_blank" rel="noopener">
+                        <img src="Images/-c-github.webp" alt="gitHub" />
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a class="thumbnail" href="https://www.linkedin.com/in/romain-pommier-479263162/" target="_blank">
-                        <img src="src/Images/linkedin.jpg" alt="linkedin" />
+                    <a class="thumbnail" href="https://www.linkedin.com/in/romain-pommier-479263162/" target="_blank" rel="noopener">
+                        <img src="Images/linkedin.webp" alt="linkedin" />
                     </a>
                 </div>
             </div>
@@ -292,6 +293,7 @@
 
         <form method="POST" action="php/sendMail.php" name="contactForm" class="contactForm contact-form">
             <div class="form-group">
+                <label for="contactName" >Nom:</label>
                 <input type="text" name="contactName" id="contactName" class="contactName form-control" placeholder="Nom" value="" required>
                 <i class="fa fa-user"></i>
 
@@ -302,7 +304,8 @@
 
 
             <div class="form-group">
-                <input type="mail" name="contactEmail" id="" class="contactEmail email form-control" placeholder="Email" value="" required>
+                <label for="contactEmail">Email:</label>
+                <input type="mail" name="contactEmail" id="contactEmail" class="contactEmail email form-control" placeholder="Email" value="" required>
                 <i class="fa fa-envelope"></i>
 
                 <span class="cross">x</span>
@@ -312,7 +315,8 @@
 
 
             <div class="form-group">
-                <input type="text" name="contactSubject" id="" class="contactSubject subject form-control" placeholder="objet" value="" required>
+                <label for="contactSubject">Sujet:</label>
+                <input type="text" name="contactSubject" id="contactSubject" class="contactSubject subject form-control" placeholder="objet" value="" required>
                 <i class="fa fa-pencil"></i>
 
                 <span class="cross">x</span>
@@ -322,7 +326,8 @@
 
 
             <div class="form-group">
-                <textarea class="contactMessage message form-control" name="contactMessage" id="" placeholder=" Message"></textarea>
+                <label for="contactMessage">Message:</label>
+                <textarea class="contactMessage message form-control" name="contactMessage" id="contactMessage" placeholder=" Message"></textarea>
                 <i class="fa fa-comments message-icon"></i>
 
                 <span class="cross">x</span>
@@ -338,15 +343,14 @@
 
 
     <footer class="text-center">
-        <a href="#about">
+        <a href="#about" name="rollback">
             <span class="glyphicon glyphicon-chevron-up"></span>
+            <h5>© 2019 Portfolio POMMIER Romain.</h5>
         </a>
-        <h5>© 2019 Portfolio POMMIER Romain.</h5>
+
     </footer>
 
-    <script src="src/JS/main.js"></script>
-    <script type="text/javascript" src="src/JS/particles.js"></script>
-    <script type="text/javascript" src="src/JS/app.js"></script>
+    <script src="bundle.js"></script>
 
 </body>
 

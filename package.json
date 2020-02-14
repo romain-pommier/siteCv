@@ -1,0 +1,26 @@
+{
+  "name": "sitecv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romain-pommier/siteCv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romain-pommier/siteCv/issues"
+  },
+  "homepage": "https://github.com/romain-pommier/siteCv#readme"
+}
