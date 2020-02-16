@@ -8,27 +8,25 @@ const minify = require('gulp-minify')
 const concatCss = require('gulp-concat-css')
 
 function sass(){
-    return src(["node_modules/bootstrap/dist/css/bootstrap.min.css","src/CSS/style.scss"])
+    return src([ "src/CSS/style.scss", "node_modules/bootstrap/scss/bootstrap.scss",])
         .pipe(gulpSass())
-        .pipe(concatCss("new.css"))
+        .pipe(concatCss("new.min.css"))
         .pipe(cleanCSS())
         .pipe(dest('public/CSS'))
 
 }
 
 function minBootstrapJs(){
-    return src(["node_modules/bootstrap/dist/js/bootstrap.min.js"])
+    return src(["node_modules/jquery/dist/jquery.min.js","node_modules/bootstrap/dist/js/bootstrap.min.js"])
+        .pipe(concat({path:'new.js'}))
         .pipe(minify())
         .pipe(dest('public/Bootstrap'))
 
 }
-function minCss(){
-    return src('public/CSS/*.css')
-        .pipe(dest('public/CSS'))
-}
+
 
 function minJs(){
-    return src('src/JS/*.js')
+    return src(["src/JS/main.js", "src/JS/particles.js", "src/JS/app.js"])
         .pipe(concat({path:'new.js'}))
         .pipe(minify())
         .pipe(dest('public/JS'))
@@ -39,6 +37,7 @@ function clean(){
 }
 module.exports = {
     minJs,
+    sass,
     default:series(clean, sass, minJs, minBootstrapJs)
 
 }

@@ -1,3 +1,4 @@
+
 $(function() {
 
     $(".navbar a, footer a").on("click", function(event) {
