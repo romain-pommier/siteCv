@@ -19,7 +19,8 @@ h5 {
     text-align: center;
 }
 h2{
-    font-size: 22px!important;
+    //font-size: 22px!important;
+    font-size:1.7rem;
 }
 
 ul,
@@ -113,6 +114,7 @@ section {
 
 /* SKILLS */
 #skills {
+    background-color: $white-color;
     color: $blue-color;
     .progress {
         margin: 30px 20px;
@@ -187,6 +189,7 @@ section {
 }
 /* EXPERIENCE */
 #experience {
+    background-color: $white-color;
     .timeline {
         padding: 30px 10px;
         position: relative;
@@ -354,26 +357,29 @@ section {
 
 /* portfolio*/
 
-#portfolio .row{
-    padding: 0;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    margin-bottom: 30px;
-    .thumbnail{
-        img {
-            width: 100%;
-            height: 100%;
-            filter: grayscale(100%);
-            -webkit-filter: grayscale(100%);
-            border: 4px white solid;
-        }
-        img:hover {
-            filter: none;
-            -webkit-filter: none;
-        }
+#portfolio {
+    background-color: $white-color;
+    .row{
+        padding: 0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        margin-bottom: 30px;
+        .thumbnail{
+            img {
+                width: 100%;
+                height: 100%;
+                filter: grayscale(100%);
+                -webkit-filter: grayscale(100%);
+                border: 4px white solid;
+            }
+            img:hover {
+                filter: none;
+                -webkit-filter: none;
+            }
 
 
+        }
     }
 }
 
@@ -482,29 +488,35 @@ footer {
 }
 
 footer {
+    h5 {
+        color: #fff;
+        font-weight: normal;
+    }
+
     svg{
         color: #d82c2e;
-        height: 100%;
-    }
-    svg:hover{
         height: 100px;
     }
+
+    svg:hover{
+        height: 140px;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
+    a {
+        padding: 20px;
+    }
 }
 
 
-footer h5 {
-    color: #fff;
-    font-weight: normal;
-}
-footer a {
-    padding: 20px;
-}
 
-
-/*BACKGROUND-COLOR*/
-
-#skills,
-#experience,
-#portfolio {
-    background: rgba(255, 255, 255, 0.7);
-}
+///*BACKGROUND-COLOR*/
+//
+//#skills,
+//#experience,
+//#portfolio {
+//    background: rgba(255, 255, 255, 0.7);
+//}
