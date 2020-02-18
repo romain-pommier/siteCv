@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Romain POMMIER Concepteur/Développeur Web junior</title>
+
+    <title>Romain POMMIER Concepteur Développeur Web junior</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Romain POMMIER Concepteur/Développeur Web junior" />
+    <meta name="description" content="Romain POMMIER Concepteur Développeur Web junior" />
+    <meta name="author" content="Romain POMMIER" />
     <link rel="stylesheet" href="CSS/new.min.css" async="true">
+    <meta name="google-site-verification" content="UNp40NTqOu3zf6QoM2OoVI1aJp8-ApjiFHKcCujpCRA" />
     <script type="text/javascript" src="Bootstrap/new-min.js" ></script>
 </head>
 
@@ -35,7 +38,7 @@
 
     <section id="about" class="container">
         <div class="col-md-12 div-picture ">
-            <img src="Images/image%20site%20.webp" alt="romain" />
+            <img src="Images/image%20site%20.webp" alt="romain POMMIER Concepteur Développeur" />
         </div>
 
         <div class="heading col-md-12">
