@@ -1,19 +1,18 @@
 <?php
-//echo phpinfo();
+//echo ;
 // My email
 $siteOwnersEmail = 'contact@romain-pommier.com';
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 $dir = dirname($uri);
-$file = 'index.html';
+$file = 'index.php';
 
 if($_POST) {
-
    $name = trim(stripslashes($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));
    $subject = trim(stripslashes($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
-	$error = "";
+   $error = "";
 
    // Check Name
 	if (strlen($name) < 2) {
@@ -50,22 +49,21 @@ if($_POST) {
    if (!$error) {
        ini_set("sendmail_from", $siteOwnersEmail); // for windows server
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
-
 		if ($mail) {
-			header("Location: http://$host$dir/$file" . "?sent=1");
+			header("Location: http://$host$dir$file" . "?sent=1");
 		}
       else { echo "Votre message n'a pas été envoyé. Ressayez s'il vous plaît."; }
 		
 	} # end if - no validation error
 
 	else {
-		header("Location: http://$host$dir/$file" . "?sent=0");
+		header("Location: http://$host$dir$file" . "?sent=0");
 
 	} # end if - there was a validation error
 
 }
 else {
-	header("Location: http://$host$dir/$file");
+	header("Location: http://$host$dir$file");
 }
 
 ?>

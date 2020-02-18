@@ -425,13 +425,14 @@ section {
     color: white;
 }
 
-.contact-form i {
-    height: 0;
-    float: left;
-    position: relative;
-    top: -44px;
-    left: 10px;
+.contact-form svg{
+    position: absolute;
+    top: 34px;
     color: #2D5266;
+    width:28.667px;
+    height:28.667px;
+    left: 2.5px;
+    padding: 5px;
 }
 
 .contact-form .message-icon {
