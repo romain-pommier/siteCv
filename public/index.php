@@ -44,7 +44,7 @@
         <div class="heading col-md-12">
             <h1>Romain POMMIER</h1>
             <h2>Concepteur/Développeur Web junior</h2>
-            <a href="DOCS/cv%20Romain%20dev.pdf" target="_blank" >Télécharger </a>
+            <a href="DOCS/cvSiteRomain.pdf" target="_blank" >Télécharger </a>
         </div>
     </section>
 
@@ -150,7 +150,7 @@
                                     Développement Web Junior
                                 </h3>
                                 <h4>
-                                   BJ-invest<br />
+                                   BJ-invest<br />-Maintenance d'un bundle de paiement (Symfony) <br/>-Maintenance des sites internes<br/>-Création d'un module de paiement V2 (Serverless AWS,  Node.js, GraphQL)
                                 </h4>
                                 <p class="text-muted">
                                     <small>
