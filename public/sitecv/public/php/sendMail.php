@@ -5,7 +5,7 @@ $siteOwnersEmail = 'contact@romain-pommier.com';
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 $dir = dirname($uri);
-$file = 'index.html';
+$file = 'index.php';
 
 if($_POST) {
    $name = trim(stripslashes($_POST['contactName']));

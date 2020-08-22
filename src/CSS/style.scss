@@ -293,13 +293,37 @@ section {
         left: 50%;
         margin-left: -2.5px;
     }
+    @media (max-width: 680px) {
+        .timeline:before{
+            display:none !important;
+        }
+        .timeline-panel-container, .timeline-panel-container-inverted{
+            width: 100% !important;
+        }
+        .timeline .timeline-panel,.timeline .timeline-panel-container-inverted .timeline-panel {
+            width: 100% !important;
+            float: none;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .timeline .timeline-panel:after{
+            display: none;
+        }
+    }
+    
+   
 }
 .text-muted{
     color:#525151!important;
     svg{
         font-size: 22px;
     }
+
 }
+
+    
+    
+
 
 
 
