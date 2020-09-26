@@ -50,7 +50,7 @@ section {
 .white-divider {
     width: 100px;
     height: 2px;
-    background: #dddddd;
+    background: white;
     margin: 0 auto;
 }
 
@@ -132,7 +132,7 @@ section {
 
 /*R2ALISATION*/
 #realisation{
-    color: $white-color;
+    color: white;
     .row {
         padding: 0;
         margin-left: 50%;
@@ -155,7 +155,7 @@ section {
 /*Education*/
 #education{
     .heading h2{
-        color: $white-color!important;
+        color: white!important;
     }
 
     .education-block {
