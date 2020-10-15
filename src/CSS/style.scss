@@ -64,6 +64,12 @@ section {
     font-weight: bold;
     text-align: center;
     border-bottom: 1px $white-color solid;
+    li{
+        border-right: 2px #fff solid;
+    }
+    li:last-child{
+        border-right: none !important;
+    }
     a{
         color: #fff !important;
     }
