@@ -5,11 +5,11 @@
   "dependencies": {
     "dtrace-provider": "^0.8.8",
     "particles": "^0.3.1",
-    "webpack": "^4.44.1"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "bootstrap": "^4.5.2",
-    "css-loader": "^3.6.0",
+    "css-loader": "^6.7.3",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
@@ -19,7 +19,7 @@
     "gulp-minify": "^3.1.0",
     "gulp-sass": "^4.1.0",
     "jquery": "^3.5.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
